@@ -1,0 +1,227 @@
+body {
+    background-color: rgb(48, 46, 46);
+} 
+
+/* ---Header--- */
+.HTML-image { /* Alters the properties of the background image in the header */
+    opacity: 0.2;
+    position: relative;
+    right: 15px;
+}
+
+.container-1 { /* Alters the properties of 'h1' 'p' and the 'a' tag */
+    color: white;
+    position: relative;
+    left: 2px;
+    font-weight: bold;
+    text-align: center;
+    width: 40em;
+
+}
+
+.p-text-alignment {  /* Alters the properties of the <p> tag */
+    position: relative;
+    left: 20.8em;
+    bottom: 320px;
+}
+
+.h1-container {
+    width: 14em;
+    position: relative;
+    left: 13.6em;
+    bottom: 320px;
+}
+
+.read-more {
+    background-color: rgb(56, 55, 55);
+    border: 1px solid white;
+    padding: 22px 35px;
+    width: 20px;
+    text-align: right;
+    position: relative;
+    bottom: 285px;
+    left: 35em;
+    transition-property: background-color; /* Transitions the background colour of the 'Read More' element */
+    transition-duration: 1s;
+}
+
+.read-more:hover {
+    background-color: black; /* Transitions the background colour to black */
+}
+
+/* ---Main--- */
+.main-h1 { /* Alters the properties of the heading of container 2 */
+    font-family: Arial;
+    font-size: 25px;
+    padding-top: 25px;
+    position: relative;
+    bottom: 0em;
+    text-align: center;
+    z-index: 1;
+}
+
+.main-p1 { /* Alters the properties of <p> in container 2 */
+    width: 40%;
+    padding-top: 10px;
+    text-align: center;
+    position: relative;
+    left: 7em;
+    top: 1px;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.main-p2 { /* Alters the propertie of second <p> in container 2 */
+    width: 33%;
+    text-align: center;
+    position: relative;
+    bottom: 4.5em; /* 11em */
+    left: 33em;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.white-container { /* Alters the properties of the first white container */
+    width: 101.1%;
+    background-color: rgb(226, 226, 226);
+    height: 14em;
+    position: relative;
+    right: 15px;
+    bottom: 10.9em;
+}
+
+/*---Central Container---*/
+.grid { /* Grid for the 3 card elements */
+    width: 80%;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 7em;
+    position: relative;
+    bottom: 9em;
+    left: 10.5em;
+}
+
+.card-img {
+    margin-bottom: 0;
+}
+
+.card-h3 {
+    background-color: white;
+    width: 12.5em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    bottom: 4px;
+    padding-top: 2em;
+    font-size: 1.5em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.card-p {
+    background-color: white;
+    width: 17.05em;
+    text-align: center;
+    margin-top: 0;
+    position: relative;
+    bottom: 4px;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    font-size: 1.1em;
+    line-height: 30px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.container-4 { /* Alters the properties of the second white container */
+    background-color: white;
+    position: relative;
+    bottom: 8em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.digital-container { /* Alters the properties of the <h> and <p> in container 4 */
+    text-align: center;
+    font-size: 1.2em;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.digital-container-h { /* Alters the properties of only <h> */
+    font-size: 1.5em;
+    position: relative;
+    bottom: 20px;
+}
+
+.digital-container-p { /* Alters the properties of only <p> */
+    position: relative;
+    top: 10px;
+}
+
+.container-5 { /* Creates container for 'About Us' and 'Contact Us' */
+    height: 130px;
+}
+
+.contact-us {
+    background-color: rgb(72, 137, 223);
+    width: 50%;
+    height: 20em;
+    text-align: center;
+    position: relative;
+    bottom: 9.6em;
+}
+
+.about {
+    width: 50%;
+    height: 20em;
+    text-align: center;
+    position: relative;
+    left: 39.5em;
+    bottom: 31.2em;
+}
+
+.h3-p { /* Edits the <h3> and <p> tags for both 'Contact Us' and 'About Us' */
+    position: relative;
+    top: 2em;
+    color: white;
+}
+
+.heading { /* Edits the heading of both 'Contact Us' and 'About Us' */
+    font-weight: bold;
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph { /* Edits the paragraph sections of 'Contact Us' and 'About Us' */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+/*---Footer---*/
+footer {
+    background-color: black;
+    height: 6em;
+    position: relative;
+    top: .5em;
+}
+
+.footer-1 {
+    color: white;
+    width: 12%;
+    font-weight: 300;
+    position: relative;
+    left: 15em;
+    top: 2em;
+    font-size: 1.1em;
+}
+
+.footer-2 {
+    color: white;
+    width: 12%;
+    font-weight: 300;
+    position: relative;
+    left: 55em;
+    bottom: .5em;
+}
+
